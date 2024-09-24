@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+:root{
+    --cor01:   #80F2D2;
+    --cor02:   #A7F2DD;
+    --cor03:   #EEF2E9;
+    --cor04:   #3F403E;
+    --cor05:   #252626;
+    --cor06:   #747777b5;
+    --cor07:   #85e9cdc8;
+    --degrade: linear-gradient(to top, var(--cor04),var(--cor06), var(--cor02), var(--cor01));
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Oswald", sans-serif;}
+
+    body{
+        background-color:var(--cor07);
+        font-family: var(--fonte-padrao);
+    }
+
+    header{
+        height: 250px;
+        text-align: center;
+        padding-top: 1px;
+        background-image: var(--degrade);
+        font-family: var(--fonte-destaque);
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    header img{
+        border-radius: 50px;
+    }
+
+    header h1{
+        font-family: var(--fonte-destaque);
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        text-shadow: 10px 10px 10px  #000000;
+    }
+
+    header p{
+        color: rgb(0, 0, 0);
+        font-family: var(--fonte-padrao);
+        font-size: 1.2em;
+        text-shadow: 10px 10px 10px black;
+        max-width: 500px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    nav{
+        font-weight: bold;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 0px 0px 5px 5px;
+        background-color: var(--cor04);
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
+
+    nav a:hover{
+        background-color: var(--cor06);
+        border-radius: 3px;
+    }
+
+    main{
+        background-color: rgba(64, 203, 201, 0.786);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-radius: 10px;
+        max-width: 700px;
+        min-width: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    main h1{
+        font-family: var(--fonte-destaque);
+        color: var(--cor05);
+        padding: 10px;
+    }
+    
+    main h2{
+        font-family: var(--fonte-destaque);
+        padding: 10px;
+        color: var(--cor05);
+        background-image: linear-gradient(to right, var(--cor01),transparent);
+        margin: auto;
+    }
+
+    main p{
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-indent: 30px;
+        line-height: 2em;
+        font-size: 1.2em;
+        color: black;
+    }
+
+    main img{
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+
+    footer{
+        background-color: rgb(109, 101, 101);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    }
+
+    footer a{
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+    }
+
+    fieldset{
+        margin: auto;
+        padding: auto;
+    }
+
+    input #text{
+        width: 350px;
+    }
+
+    textarea{
+        width:350px ;
+        height: 250px ;
+    }
+
+    button{
+        display: block;
+        margin: auto;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: var(--cor03);
+    }
+
+    button:hover{
+        background-color: var(--cor02);
+    }
