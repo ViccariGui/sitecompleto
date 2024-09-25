@@ -1,3 +1,13 @@
+document.getElementById('enviarbotao').onclick = function() {
+    let envio = true;
+    if (envio) {
+        alert("Sua mensagem foi enviada");
+       
+    } else {
+        alert("Falha no envio da mensagem");
+    }
+};
+
 function disableOptions(questionName) {
     let options = document.getElementsByName(questionName);
     options.forEach(option => {
